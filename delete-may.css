@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left:370px;
+  }
+  
+  /* Styling for table headers */
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Add some background and text color to header cells */
+  th {
+    background-color: #a4a4a4;
+  }
+  
+  /* Add a different background color on hover */
+  tr:hover {
+    background-color: #a4a4a4;
+  }
+  
+  /* Add a zebra stripe effect to the table rows */
+  tr:nth-child(odd) {
+    background-color: #a4a4a4;
+  }
+  
+  /* Add some spacing to the cells */
+  td {
+    padding: 10px;
+  }
+  
+  /* Add a border to all cells */
+  td, th {
+    border: 1px solid black;
+  }
+  input[type="submit"]{
+    width: 500px;
+  }
+  

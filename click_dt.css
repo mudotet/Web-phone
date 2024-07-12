@@ -1,0 +1,695 @@
+.img-header{
+    display: flex;
+}
+.img-one-more{
+    margin: auto;
+    width: 374px;
+}
+header{
+    margin-top:-5px;
+}
+.banner-tophead{
+    background-color: #e9efff;
+    padding: 5px;
+}
+.nav{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+.img{
+    height: auto;
+    max-width: 100%;
+    margin-right: 30px;
+}
+.slide{
+    display: flex;
+}
+.img img{
+    border-radius: 5px;
+}
+.subject-header{
+    background-color: rgb(221, 27, 26);
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+.logo{
+    margin-top: -15px;
+    margin-left: 8%;
+}
+.danh_muc{
+   
+    display:flex ;
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    padding: 10px 0px ;
+    margin: 5px 0px;
+    margin-left: -44%; 
+    background: rgba(200, 198, 198, 0.3);
+    
+}
+#icon{
+
+    color: white;
+    font-size: 13px;
+    margin-left: 5px;
+}
+#text{
+
+    color: white;
+    margin:-1px 7px;
+    font-size: 13px;
+}
+#icon-map{
+    margin-top: 10px;
+    color: white;
+    margin-left: 12px;
+}
+.map{
+    display: flex;
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    background: rgba(200, 198, 198, 0.3);
+    margin: 5px 17px;
+}
+.text{
+    color: white;
+    margin-left: -5px;
+    font-size: 13px;
+    margin-right: 15px;
+   
+}
+.phone{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    margin-right: 17px;
+}
+.locate{
+    display: flex;
+    margin: 5px 17px;
+}
+.truck{
+    display: flex;
+    margin: 5px 17px;
+}
+#icon-phone{
+    margin-top: 10px;
+    color: white;
+    margin-left: 12px;
+}
+#icon-locate{
+    margin-top: 10px;
+    color: white;
+    margin-left: 12px;
+}
+#icon-truck{
+    margin-top: 10px;
+    color: white;
+    margin-left: 12px;
+}
+#icon-cart{
+    margin-top: 10px;
+    color: white;
+    margin-left: 12px;
+}
+#icon-user{
+    margin-top: 5px;
+    color: white;
+    padding-right: 30px;
+}
+.cart{
+    display: flex;
+    margin: 5px 17px;
+}
+.nav{
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    background: rgba(200, 198, 198, 0.3);
+    margin-left: 10px;
+    padding: 0 10px;
+}
+#user{
+    text-decoration: none;
+    color: white;
+}
+.img{
+    height: auto;
+    max-width: 100%;
+    margin-right: 30px;
+}
+.phone:hover{
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    background: rgba(200, 198, 198, 0.3);
+}
+.truck:hover{
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    background: rgba(200, 198, 198, 0.3);
+}
+.locate:hover{
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    background: rgba(200, 198, 198, 0.3);
+}
+.user:hover{
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    background: rgba(200, 198, 198, 0.3);
+}
+.cart:hover{
+    border: 1px solid rgb(200, 198, 198,0);
+    background-color:hsla(0,0%,100%,.2); 
+    border-radius: 10px;
+    background: rgba(200, 198, 198, 0.3);
+}
+.cps-input{
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 16px;
+    height: 34px;
+    outline: none;
+    margin-top: 5px;
+    width: 100%;
+    padding-right: 80px;
+}
+.img-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.text-section{
+    background-color: #fff;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 100%;
+    line-height: 24px;
+    padding: 20px 20px 2px 0;
+    width: 100%;
+    margin-top: 20px;
+    border: 0;
+}
+#text-section{
+    border: 0;
+    border-bottom: 1px solid rgba(145,158,171,.2);
+    font-size: 15px;
+    width : 30%;
+    height: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 500px;
+    outline:none;
+    /* outline để mất viền khung */
+}
+.submit{
+    padding-right: 640px;
+    background: #e0052b;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px auto 0;
+    padding: 11px 0;
+    text-align: center;
+    width: 100%;
+    border: 0;
+}
+.other-login hr{
+    background-color: #dbdbdb;
+    height: 1px;
+    width: 100%;
+}
+.other-login{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+hr{
+    border: none;
+    display: block;
+    height: 2px;
+    margin: 1.5rem 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+#sign-up{
+    display: flex;
+}
+.box-search i{
+    position: absolute;
+    font-size:15px;
+    margin-left:335px;
+    margin-top:-24px;
+}
+ul  nav{ 
+    display: flex;
+}
+li{
+    display: flex;
+}
+.danh_gia{
+    display: flex;
+    margin-left: 16%;
+    height: 30px;
+}
+.mau_dt{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.phone_detail{
+    display: flex;
+    margin-bottom: 10px;
+}
+.button_hcm{
+    display: flex;
+}
+.sdt_dia_diem{
+    display: flex;
+    padding: 8px;
+}
+.infor_cuahang{
+    display: flex;
+}
+.container_in4{
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.border_dt{
+    border-bottom: 1px solid black;
+}
+.cua_hang{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.gb{
+    display: flex;
+}
+.phone_color{
+    display: flex;
+}
+.thucu_lenmoi{
+    background-color: #eeeeef;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 455px;
+}
+.muangay{
+    display: flex;
+    width: 455px;
+}
+.tragop{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+}
+.chia_section{
+    display: flex;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.section_right{
+    padding-left: 20px;
+}
+section{
+    margin-top: 10px;
+}
+.big_img_phone{
+    margin-bottom: 8px;
+}
+.button_bacho{
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 160px;
+}
+.hcm_quanhuyen{
+    padding: 12px;
+}
+.icon{
+    border: 1px solid #d1d5db;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+.tinh_nang{
+    margin: 0;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    font-weight: 700;
+    color: #666;
+}
+.img_tinhnang{
+    height: auto;
+    width: 50px;
+}
+.img_tinhnang2{
+    height: auto;
+    width: 50px;
+    border-radius: 7px;
+}
+.cuahang_cosan{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.img_detail{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #dd5e89;
+    padding: 10px;
+    width: 684px;
+    height: 330px;
+}
+.img_dt_to{
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+    height: 220px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+}
+.ul_header{
+    margin:0px;
+    padding: 0px;
+    color: #fff;
+}
+.tinhnang_noibat{
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.p_detail{
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.sdt{
+    margin-right: 5px;
+    width: 74px;
+    height: 17px;
+    color: #e04040;
+    margin-left: 5px;
+}
+.tb{
+    align-items: center;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 12px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+    width: 139px;
+    height: 35px;
+}
+.pick_color{
+    display: flex;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 139px;
+    height: 35px;
+    justify-content: center;
+}
+.chinhanh{
+    margin-top: 0;
+    color: #444;
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.thucu{
+    padding: 5px;
+    width: 250px;
+    text-align: center;
+    padding-left: 100px;
+
+}
+.lendoi{
+    text-align: center;
+    padding: 5px;
+    border: 0.667px solid red;
+    box-shadow: #444;
+    width: 49%;
+    border-radius: 5px;
+    background-color: white;
+}
+.chuden{
+    font-size: 16px;
+    font-weight: 900;
+    color: #4e4e4e;
+}
+.khithu{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    color: #202020;
+}
+.chudo{
+    font-size: 16px;
+    font-weight: 900;
+    color: red;
+}
+.tangtien{
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration-line: line-through;
+}
+.button_muangay{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: red;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 370px;
+}
+.themvaogio{
+    height: 55px;
+    width: 85px;
+    border: 2px solid #e04040;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: initial;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 85px;
+}
+.gio{
+    color: #e04040;
+    font-size: 7.5px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+.nut_tragop{
+    padding-top: 1px;
+    padding-bottom:5px ;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #277cea;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 250px;
+    margin-right: 10px;
+}
+.nut_visa{
+    padding-top: 1px;
+    padding-bottom:5px ;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #277cea;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 230px;
+}
+.khong_phan_tram{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.qua_the{
+    font-size: 11px;
+    color: #fff;
+}
+.button_timhieu{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #ec8104;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    width: 488px;
+    font-size: 18px;
+
+}
+.uudai_them{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0.667px solid #d1d5db;
+    border-radius: 10px;
+
+}
+.them{
+    background-color: #d1d5db;
+    font-size: 14px;
+    padding: 10px;
+    width: 96%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.li_uudai{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.li_header{
+    margin-bottom: 5px;
+    text-align: left;
+}
+h3{
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 16px;
+    font-weight: 700;
+}
+.place{
+    color: #0864c1;
+    margin-left: 5px;
+}
+h1{
+    height: 36px;
+    color: #0a263c;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.star{
+    width: 110px;
+    height: 21px;
+}
+.so_sanh{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 73px;
+    height: 26px;
+    margin-left: 5px;
+    font-size: 14px;
+    border: 1px solid #d90018;
+    border-radius: 2px;
+    font-weight: 400px;
+}
+body{
+    background-color: #ffffff;
+}
+.border{
+    border: none;
+    background-color: #f5f5f5;
+    height: 2px;
+}
+.size_mua_ngay{
+    width: 445px;
+}
+
+footer{
+    display: flex;
+    padding: 15px;
+    margin-left: 14%;
+}
+.tong_dai{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #363636;
+    margin-top: 0;
+}
+.phuong_thuc_icon{
+    display: flex;
+}
+.footer_detail{
+    padding:12px;
+    margin-right: 100px;
+}
+.ul_footer{
+    margin: 0;
+    padding: 0;
+}
+.footer_font_size{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #4a4a4a;
+}
